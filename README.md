@@ -1,2 +1,1 @@
-# Firebaseing
-Sample code to get use to firebase
+An app to drop firebase

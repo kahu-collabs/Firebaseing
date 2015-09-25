@@ -2,6 +2,7 @@
 <head>
   <script src='https://cdn.firebase.com/js/client/2.2.1/firebase.js'></script>
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js'></script>
+  <script src="testscript.js"></script>
   <style type="text/css">
   #deleteButton {
     cursor:pointer;
@@ -15,6 +16,14 @@
         console.log("hi")
         var myDataRef = new Firebase('https://sweltering-inferno-8171.firebaseio.com/kahu');
         myDataRef.remove()
+      });
+    </script>
+    <button id='testButton'>Test</button>
+    <script>
+      $('#testButton').click(function () {
+        console.log("hi")
+        runTest()
+
       });
     </script>
   </body>
